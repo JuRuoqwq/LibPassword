@@ -18,7 +18,7 @@
 >
 > 1.用Visual Studio2022打开"/src/LibPassword/LibPassword.sln"文件
 >
-> 2.在VS2022的窗口中点击项目->属性->C/C++->预编译头->不适用
+> 2.在VS2022的窗口中点击项目->属性->C/C++->预编译头->不使用
 >
 > 3.按下F5调试，Ctrl+F5编译
 
@@ -33,6 +33,10 @@
 > ​    当参数1位OUTPUT_DATA时，如果此项为'\0'，将会输出'*'，否则输出此项
 >
 > 更多请在"Demo/LibPasswordDemo/LibPasswordDemo.cpp"中查看
+
+### 项目成品文件
+
+您可以在https://pan.huang1111.cn/s/wM8ZfK下载它
 
 ### 许可证
 
