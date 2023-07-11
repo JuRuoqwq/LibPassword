@@ -1,0 +1,2 @@
+#define LIBPASSWORD_API __declspec(dllexport)
+#define LIBPASSWORD_API __declspec(dllimport)
