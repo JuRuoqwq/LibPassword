@@ -1,4 +1,4 @@
-﻿/*
+/*
 * LibPassword Project
 * Copyright (c) Storm Lab
 *
@@ -35,11 +35,8 @@ DLLEXPORT char* getPassword(int type,char outputChar)
 				//有输出
 				if (outputChar != '\0') {
 					output = outputChar;
-					_putch(output);
 				}
-				else {
-					_putch('*');
-				}
+				_putch(output);
 			}
 			result[i] = ch;
 			i++;
